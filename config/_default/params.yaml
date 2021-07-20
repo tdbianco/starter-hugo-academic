@@ -5,14 +5,14 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
+theme: classic
+day_night: false
 font: ''
-font_size: L
+font_size: m
 
 # SEO
 
-site_type: Person
+site_type: blog
 local_business_type: ''
 org_name: ''
 description: ''
@@ -20,40 +20,20 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: t dot delbianco at bbk dot ac dot uk
+phone:
 address:
-  street: 450 Serra Mall
-  city: Stanford
+  street: Birkbeck Babylab, Centre for Brain and Cognitive Development
+  city: London
   region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
-coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+  postcode: WC1E 7JL
+  country: United Kingdom
+  country_code: UK
 contact_links:
   - icon: twitter
     icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
-    icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    name: Twitter
+    link: 'https://twitter.com/teresaDBnco'
 
 # Site header
 
@@ -104,7 +84,7 @@ copyright_license:
   allow_derivatives: false
   share_alike: true
   allow_commercial: false
-  notice: 'This work is licensed under {license}'
+  notice: 'This work is licensed under Creative Commons Attribution-NonCommercial 4.0 International License.'
 abstract_length: 135
 plugins_js: []
 avatar:
