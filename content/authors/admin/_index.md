@@ -1,60 +1,52 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Teresa Del Bianco
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: BOND Lab, Birkbeck University of London
+  url: https://sites.google.com/view/bondcbcd/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Scientist researching brain and child development and neurodiversity.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Brain and Child Development
+- Neurodiversity
+- Eye-tracking and EEG
+- Statistics
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Psychological Science and Education
+    institution: University of Trento
+    year: 2018
+  - course: Medical Doctor
+    institution: University of Pisa
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
+  link: https://twitter.com/teresaDBnco
+- icon: google-scholar 
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=RegFi4IAAAAJ&hl=en&oi=ao
+- icon: researchgate
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.researchgate.net/profile/Teresa-Del-Bianco
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -64,14 +56,12 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "teresa.delbi@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I started my career as a medical doctor and became interested in the way children interact with the visual world. During my PhD, I focused on the early manifestations of social attention, gaze-following and face-orienting. I help the coordination and data collection of several multi-site eye-tracking and EEG studies and work on the implementation of statistical analysis techniques. My focus is on  variability and internal correlations of attention that allow physiological levels of self-organisation.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}CV{{< /staticref >}}.

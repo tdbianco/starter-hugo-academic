@@ -25,7 +25,7 @@ phone:
 address:
   street: Birkbeck Babylab, Centre for Brain and Cognitive Development
   city: London
-  region: CA
+  region:
   postcode: WC1E 7JL
   country: United Kingdom
   country_code: UK
@@ -88,7 +88,7 @@ copyright_license:
 abstract_length: 135
 plugins_js: []
 avatar:
-  gravatar: false
+  gravatar: true
   shape: circle
 publications:
   date_format: January 2006
