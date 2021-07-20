@@ -1,8 +1,8 @@
 ---
-title: 'ANOVA: purpose and practise'
+title: 'ANOVA: purpose and practice'
 author: Teresa
 date: '2021-07-20'
-slug: anova-purpose-and-practise
+slug: anova-purpose-and-practice
 categories:
   - R
 tags:
