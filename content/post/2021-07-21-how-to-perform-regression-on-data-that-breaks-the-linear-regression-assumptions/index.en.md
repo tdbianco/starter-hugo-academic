@@ -85,7 +85,7 @@ ggplot(data=ChickWeight,
 
 ![](images/log_cub.png)
 
-Adding a cubic transformation of time seems to improve the fit. The points that lay well below the average may be outliers - that are far more visible now (although the treatmente of outliers should be pondered carefully).
+Adding a cubic transformation of time seems to improve the fit. The points that lay well below the average may be outliers - that are far more visible now (although the treatment of outliers should be pondered carefully).
 
 Let's check if we get a similar result as before.
 
