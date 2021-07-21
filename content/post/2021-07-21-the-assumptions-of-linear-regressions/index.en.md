@@ -37,6 +37,7 @@ For example, these are the equations of straight lines when we put numbers inste
 In practical terms, these equations describe the relationship between `x` and `y`. Back in school, when we attended math class, we were given data to fill in `x` as numbers on the Cartesian `x` axes - for example, numbers between 1 and 6. Then, we needed to recognise by what factors (a - 2.5 - and b - 3 -) we needed to increase and multiply `x` to get `y`. That's how we were able to plot straight lines starting from equations:
 
 ```{r}
+# install.packages("knitr")
 knitr::kable(data.frame(x=1:6, 
            a=2.5,
            b=3,
@@ -122,7 +123,6 @@ There are other options too - one of the most popular the transformation of the 
 Now with the practical demonstration! We will use one example dataset, the 'Chickweight', including the weight of baby birds measured across time when they are on a different diet. To produce the *diagnostic* plots, we will use ggplot - so make sure you have it installed.
 
 ```{r}
-# install.packages("knitr")
 # install.packages("ggplot2")
 library(ggplot2)
 data("ChickWeight")
