@@ -123,7 +123,7 @@ There are other options too - one of the most popular the transformation of the 
 Now with the practical demonstration! We will use one example dataset, the 'Chickweight', including the weight of baby birds measured across time when they are on a different diet. To produce the *diagnostic* plots, we will use ggplot - so make sure you have it installed.
 
 ```{r}
-# install.packages("ggplot2")
+#install.packages("ggplot2")
 library(ggplot2)
 data("ChickWeight")
 knitr::kable(head(ChickWeight))
