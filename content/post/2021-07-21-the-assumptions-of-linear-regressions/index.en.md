@@ -124,6 +124,7 @@ Now with the practical demonstration! We will use one example dataset, the 'Chic
 ```{r}
 # install.packages("knitr")
 # install.packages("ggplot2")
+library(ggplot2)
 data("ChickWeight")
 knitr::kable(head(ChickWeight))
 ```
@@ -150,7 +151,7 @@ lr <- lm(weight ~ Time + Diet, data = ChickWeight)
 knitr::kable(coef(summary(lr)))
 ```
 
-|             |  Estimate | Std. Error |   t value |  P-value  |
+|             |  Estimate | Std. Error |   t value |   P-value |
 |:------------|----------:|-----------:|----------:|----------:|
 | (Intercept) | 10.924391 |  3.3606567 |  3.250672 | 0.0012189 |
 | Time        |  8.750492 |  0.2218052 | 39.451248 | 0.0000000 |
@@ -180,7 +181,7 @@ hist(resid(lr),
 The residuals seems to depend on Time, resulting in a curved pattern, while they do not show any pattern determined by Diet. The curved pattern suggest that Weight might not change linearly across Time, but rather non-linearly, with a shape that can be approximated to a curve, rather than a straoght line.
 
 ```{r}
-ggplot2::ggplot(data = ChickWeight, 
+ggplot(data = ChickWeight, 
        aes(x = Time, 
            y = cbind(resid(lr)))) + 
   geom_jitter(size = 3, col = "red", alpha = 0.5) +
@@ -191,7 +192,7 @@ ggplot2::ggplot(data = ChickWeight,
 ![](images/ind_time.png)
 
 ```{r}
-ggplot2::ggplot(data = ChickWeight, 
+ggplot(data = ChickWeight, 
        aes(x = Diet, 
            y = cbind(resid(lr)))) + 
   geom_jitter(size = 3, col = "red", alpha = 0.5) +
@@ -206,7 +207,7 @@ ggplot2::ggplot(data = ChickWeight,
 From this last plot, we do see again that there is a non-liner, curved pattern in the data, that we already know is probably due to the relationship between Weight and Time (see the Weight vs Time Independence plot). While we do not spot any particularly evident outlier in this plot, so the data seems homogeneous, the assumption of Heteroscedacity is not respected, i.e., the variance of the error terms is not constant. In fact, the value of the residual increases with the increase of the response, and the data takes the typical *funnel* shape.
 
 ```{r}
-ggplot2::ggplot(data = ChickWeight, 
+ggplot(data = ChickWeight, 
                 aes(x = predict(lr), 
                     y = cbind(resid(lr)))) + 
   geom_point(size = 3, col = "red", alpha = 0.6) +
