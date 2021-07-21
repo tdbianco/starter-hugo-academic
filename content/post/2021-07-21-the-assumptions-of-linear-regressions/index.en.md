@@ -159,7 +159,7 @@ knitr::kable(coef(summary(lr)))
 | Diet3       | 36.499407 |  4.0858416 |  8.933143 | 0.0000000 |
 | Diet4       | 30.233456 |  4.1074850 |  7.360576 | 0.0000000 |
 
-The Estimate of Intercept is `a` - the value corresponding to the Weight baseline (10.92). The Estimate of Time is `b` - corresponding to the factor needed to increase and multiply `x` (Time 0, 2 , 6...) to get `y` (Weight). The Estimate of Diet is also `b` - the factor needed to increase and multiply `x` (Diet 2/3/4) to get `y` (Weight).
+The Estimate of Intercept is `a` - the value corresponding to the average Weight baseline (10.92). The Estimate of Time is `b` - corresponding to the factor needed to multiply `x` (Time 0, 2 , 6...) to get `y` (Weight). The Estimate of Diet is also `b` - the factor needed to multiply `x` (Diet 2/3/4) to get `y` (Weight).
 
 Normally, we would look at the size of `b` and the associated p-value to conclude whether Time and Diet are having a relevant effect on the baby birds' weights. Here, the Estimates of Diet are much higher than the baseline weight of the average bird (10.92), and the p-values are very significant, so we may conclude that these diets are very effective. However, we should also consider if this analysis introduces an excessive gap/bias that makes our Estimates unreliable.
 
