@@ -22,6 +22,4 @@ design:
     text_color_light: false
 ---
 
-```{r align="center"}
-          A Blog about my Personal Experience with Science and Statistics
-```
+<center> <p style="font-family: monaco; font-size:11pt"> A Blog about my Personal Experience with Science and Statistics </p> </center>
