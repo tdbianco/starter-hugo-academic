@@ -131,7 +131,7 @@ knitr::kable(coef(summary(m1)))
 
 Even though our main focus is understanding the numerical output, the summary function reminds us that the model is linear, it has been fitted with **Restricted Maximum Likelihood method (REML)**, and degrees of freedom have been calculated with the **Satterthwaite's method**. All these parameters can be changed by an intermediate user: I will not dig any deeper here, but stick to the default formulation of the model.
 
-![](images/Screenshot%202021-07-26%20at%2013.08.30.png){width="400"}
+![](images/Screenshot%202021-07-26%20at%2013.08.30.png)
 
 **The REML criterion at convergence** corresponds to the number of iterations reached for estimating the model (not really interesting for us, not usually reported in scientific papers). The section **scaled residuals** describe the residuals, that are more relevant if the aim is predicting new values - which is not the case. So let's move on.
 
