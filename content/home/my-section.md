@@ -23,11 +23,4 @@ design:
 ---
 
 <center>
-
-<p style="font-family: monaco; font-size:11pt">
-
-A Blog about my Personal Experience with Science and Statistics
-
-</p>
-
-</center>
+<p style="font-family: monaco; font-size:11pt"> A Blog about my Personal Experience with Science and Statistics </p> </center>
