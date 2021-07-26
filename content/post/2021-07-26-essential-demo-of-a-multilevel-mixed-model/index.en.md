@@ -190,7 +190,7 @@ as.data.frame(VarCorr(m1, comp=c("Variance","Std.Dev."), digits=2))
 
 The first two rows represent the random intercept and slope, the third is the correlation between the random intercept and slope, the last row is the residual variance. The *vcov* and *sdcor* indicate the unit of each of this quantities, respectively variance and standard deviation.
 
-2.  Fixed effects:
+1.  Fixed effects:
 
 ```{r}
 knitr::kable(fixef(m1))
