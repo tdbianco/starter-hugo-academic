@@ -64,4 +64,4 @@ highlight_name: false
 
 I started my career as a medical doctor and became interested in the way children interact with the visual world. During my PhD, I focused on the early manifestations of social attention, gaze-following and face-orienting. I help the coordination and data collection of several multi-site eye-tracking and EEG studies and work on the implementation of statistical analysis techniques. My focus is on  variability and internal correlations of attention that allow physiological levels of self-organisation.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}CV{{< /staticref >}}.
