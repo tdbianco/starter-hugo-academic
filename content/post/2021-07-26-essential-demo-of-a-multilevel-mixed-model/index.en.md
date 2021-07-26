@@ -55,7 +55,7 @@ kable(head(sleepstudy))
 
 # Why a Multilevel/Mixed Model?
 
-As it is obvious from the above table, we have several measurements for each subject taken across the week. Differently from the tests we are more used to, such as Anova, we do not calculate averages or collapse observations on a condition: the more data points per subject we have, the better. [We are going to fit the model directly on this table]{.ul}. Let's have a look at the data:
+As it is obvious from the above table, we have several measurements for each subject taken across the week. Differently from the tests we are more used to, such as Anova, we do not calculate averages or collapse observations on a condition: the more data points per subject we have, the better. We are going to fit the model directly on this table. Let's have a look at the data:
 
 ```{r}
 linep <- ggplot(data=sleepstudy, aes(y=Reaction, x=Days, color=Subject, group=Subject)) + 
@@ -98,7 +98,7 @@ As every regression model, a multilevel/mixed model is specified by a formula, w
 
 Since the random effect expresses *variation*, all the other predictors are usually called *fixed* effects or terms. In this case, the factor Days works as a fixed effect, but has both a fixed and a random term.
 
-Let's visualize this concepts in the formula, written using [the syntax of the lmer function in R]{.ul}.
+Let's visualize this concepts in the formula, written using the syntax of the *lmer* function in R.
 
 # Fitting a Mixed Model in R
 
