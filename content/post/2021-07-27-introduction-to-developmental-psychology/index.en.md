@@ -41,25 +41,29 @@ Most people assume that I got into Developmental psychology because I like child
 
 Many of the fundamental questions of Developmental Psychology are retellings of the *Where do we come from* question, just incredibly more specific. It is a little bit like someone, one day, asked *What is a fish*, and the developmental psychologist answered *Well, what is a sea bass? And a shark? And what is a salmon...*
 
-Actually, the most challenging aspect of developmental questions is that every question contains another question. Let's start with one of the oldest question of Developmental Psychology: do children start from scratch, and heavily depend on experience when they are born, or do they possess some kind of pre-determined scheme[^1]?
+Actually, the most challenging aspect of developmental questions is that every question contains several other questions.
+
+Let's start with one of the oldest questions of Developmental Psychology: do children have to start building up their knowledge from scratch, thus heavily depending on experience, or do they possess some kind of a pre-determined scheme[^1]?
 
 [^1]: J.F. Kihlstrom, L. Park, "Cognitive Psychology: Overview", Reference Module in *Neuroscience and Biobehavioral Psychology*, Elsevier, 2018, ISBN 9780128093245, <https://doi.org/10.1016/B978-0-12-809324-5.21702-1.>
 
-In fact, although this old question has been answered - nope, children do not start from scratch - this answer has planted several other questions.
+This question has planted several other questions - that have only being fueled by the fact that the old question has been answered - nope, children do not start from scratch.
 
-For instance, how do children progress **from their initial state to successive states** - does it happen as a **gradual accumulation of knowledge**, or **a shift from one stage to another**, or do these processes **co-occur and intertwine**[^2]? And again, **is any kind of knowledge mostly innate, or is it dramatically shaped by experience** - for instance, are **social skills** determined by innate, general mechanisms, rather than depending on the social context[^3]?
+For instance, *how* do children progress from their initial state to successive states - does it happen as a gradual accumulation of knowledge, or do they shift from one stage to another? Or do these processes even co-occur and intertwine[^2]? And again, is any kind of specific knowledge mostly innate, or dramatically shaped by experience - for instance, are social skills determined by innate, general mechanisms, and to what extent they depend on the social context[^3]?
 
 [^2]: C. A. Nelson III, K. M. Thomas & M. de Haan, (2007). "Neural bases of cognitive development". *Handbook of child psychology*, *2,* page 7
 
 [^3]: A.N. Meltzoff & J. Decety, (2003), "What imitation tells us about social cognition: a rapprochement between developmental psychology and cognitive neuroscience", *Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences*, *358*(1431), 491-500.
 
-## Nature vs Nurture
+## Traces of Empiricism and Seeds of Nativism
 
-These questions pave the ground of the most essential debate of Developmental Psychology: the **Nature vs Nurture** debate, or the **Innateness vs Environment diatribe**. For almost all developmental processes - the *how* do children progress - there is a nativist and an empiricist account[^4].
+These questions pave the ground of the most essential debate of Developmental Psychology: the **Nature vs Nurture** debate, or the Innateness vs Environment diatribe. For almost all developmental processes - the *how* do children progress - there is a nativist and an empiricist account[^4].
 
 [^4]: M. H. Bornstein, "Infancy and Human Development", *International Encyclopedia of the Social & Behavioral Sciences (Second Edition)*, Elsevier, 2015, Pages 7-13, ISBN 9780080970875, <https://doi.org/10.1016/B978-0-08-097086-8.23138-3.>
 
-An **empiricist account** puts the focus on the environment, and argue that any developmental process, such as language acquisition, develops via statistical learning based on the available input. Somehow, this is a less favoured point of view by modern scientists and the general public (but it is has not always been that way). A **nativist account** would argue that the inputs that we encounter in real life are not sufficient for successful learning. After all, infants learn to speak at surprisingly fast rates, even if their experience of language consists of random sampling from a limited number of sources. So, there must be a pre-specified [universal grammar](https://en.wikipedia.org/wiki/Universal_grammar) that allows humans of all ages - even infants - to unwrap and understand reality. From this concept, the notion of a **language learning module/device** has evolved[^5].
+An **empiricist account** puts the focus on the environment, and argue that any developmental process, such as language acquisition, develops via statistical learning based on the available input. Somehow, this is a less favoured point of view by modern scientists and the general public (but it is has not always been that way).
+
+A **nativist account** would argue that the inputs that we encounter in real life are not sufficient for successful learning. After all, infants learn to speak at surprisingly fast rates, even if their experience of language consists of random sampling from a limited number of sources. So, there must be a pre-specified [universal grammar](https://en.wikipedia.org/wiki/Universal_grammar) that allows humans of all ages - even infants - to unwrap and understand reality. From this concept, the notion of a **language learning module/device** has evolved[^5].
 
 [^5]: H. Heft, "Evolution of Human Cognition", *International Encyclopedia of the Social & Behavioral Sciences (Second Edition)*, Elsevier, 2015, Pages 252-258, ISBN 9780080970875, <https://doi.org/10.1016/B978-0-08-097086-8.57022-6.>
 
@@ -67,13 +71,13 @@ Despite the fact that these approaches share the same aim - the **description** 
 
 This is a broad distinguish - that historically has been formalised with far more detailed predictions.
 
-## Social Contextualism
+## Circles and Stairsways
 
-A historically relevant empiricist conceptualisation of psychological development is the **Social Contextualism** of [Lev Vygotsky](https://en.wikipedia.org/wiki/Lev_Vygotsky), that brought further organisation to the definition of Ecological Systems, previously formulated by [Urie Bronfenbrenner](https://en.wikipedia.org/wiki/Urie_Bronfenbrenner). Contextualism postulates that humans exist inside nested systems in reciprocal correlation[^6]:
+A historically relevant empiricist conceptualisation of psychological development is the **Social Contextualism** of [Lev Vygotsky](https://en.wikipedia.org/wiki/Lev_Vygotsky), that brought further organisation to the definition of Ecological Systems, previously formulated by [Urie Bronfenbrenner](https://en.wikipedia.org/wiki/Urie_Bronfenbrenner). Contextualism postulates that humans exist inside nested circles in reciprocal correlation[^6]:
 
 [^6]: G. S. Ashiabi & K. K. O'Neal, (2015). Child social development in context: An examination of some propositions in Bronfenbrenner's bioecological theory. *Sage Open*, *5*(2), 2158244015590840.
 
--   Closer to the individual, the **micro-system**, such as the immediate environment of children - their family.
+-   Closer to the individual, the smaller circle or **micro-system**, such as the immediate environment of children - their family.
 
 -   Micro-systems connect to each other, forming a **meso-system**, for example, a school
 
@@ -81,19 +85,19 @@ A historically relevant empiricist conceptualisation of psychological developmen
 
 -   The larger cultural context where these relationships take place also play a role, and constitute the **macro-system** encompassing all the smaller units
 
-According to Contextualism, individuals' movements within and between these systems determined the functions and dysfunctions of developing humans. Most of all, **social interactions** would play a pivotal role as they would determine the exchange of information, the harmony within a sphere, and the reward for progress[^7].
+According to Contextualism, individuals' movements within and between these circles determined the functions and dysfunctions of developing humans. Most of all, **social interactions** would play a pivotal role as they would determine the exchange of information, the harmony within a circle, and the reward for progress[^7].
 
 [^7]: E. O. Burkholder & M. Peláez, (2000). "A behavioral interpretation of Vygotsky's theory of thought, language, and culture". *Behavioral Development Bulletin, 9*(1), 7-9. <http://dx.doi.org/10.1037/h0100530>
 
-Nowadays, thanks to studies of genetics and quantitative neuroscience, the role of social interactions in directly shaping developmental outcomes has been significantly scaled down. Families and schools are seen as **environments**, rather than systems - we easily define a school as its desks, chairs and blackboards, rather than as a network of families. However, modern developmental psychology still echoes the idea that the social world is nested - sometimes contradicting the widespread notion that development is *staged/linear* -, and of a correlation between social interactions and development.
+Nowadays, thanks to studies of genetics and quantitative neuroscience, the role of social interactions in directly shaping developmental outcomes has been significantly scaled down. Families and schools are seen as **environments**, rather than circles or systems - we easily define a school as its desks, chairs and blackboards, rather than as a network of families. However, modern developmental psychology still echoes the idea that the social world is nested - sometimes contradicting the widespread notion that development is *staged/linear* -, and of a multi-level correlation between social interactions and development.
 
 Contextualism was deeply relativist - nativist theories on the other hand sought to apply to development the same universal rules of **biology and evolution**[^8].
 
 [^8]: G. Airenti, (2019), "The Place of Development in the History of Psychology and Cognitive Science", *Frontiers in psychology*, *10*, 895. <https://doi.org/10.3389/fpsyg.2019.00895>
 
-With technological advancement and better quantitative tools, developmental scientists observed that different developmental processes shared a common feature: the individual's state shifted between **stages of growing complexity**.
+With technological advancement and better quantitative tools, developmental scientists observed that different developmental processes shared a common feature: the individual's state shifted between stages of growing complexity, as if developmental milestones were localised on the steps of an imaginary stairway.
 
-[**Prenatal development**](https://en.wikipedia.org/wiki/Prenatal_development) has clear biological milestones, and occurs through neatly timed stages - germinal (0-2 weeks since egg fertilisation), embryonic (3-8 weeks) and fetal (9 weeks till birth). This is possible thanks to genetic pathways that activate at specific times and trigger morphological changes[^9]. However, **staged-like progression occurs postnatally too**. Reflexes, sleep, vision, hearing and habituation all change across the first years, but their progression is **not at all seamless**. For example, active sleep characterized by rapid eye movements (REM) replaces newborns' quiet sleep[^10], transient reflexes such as primitive reflexes stop occurring[^11], and visual acuity quickly superseeds blurry, colour-blind vision[^12].
+[**Prenatal development**](https://en.wikipedia.org/wiki/Prenatal_development) has clear biological milestones, and occurs through neatly timed steps - germinal (0-2 weeks since egg fertilisation), embryonic (3-8 weeks) and fetal (9 weeks till birth). This is possible thanks to genetic pathways that activate at specific times and trigger morphological changes[^9]. However, **staged-like progression occurs postnatally too**. Reflexes, sleep, vision, hearing and habituation all change across the first years, but their progression is not at all seamless. For example, active sleep characterized by rapid eye movements (REM) replaces newborns' quiet sleep[^10], transient reflexes such as primitive reflexes stop occurring[^11], and visual acuity quickly supersedes blurry, colour-blind vision[^12].
 
 [^9]: D. Rice, S. Jr. Barone, (2000), "Critical periods of vulnerability for the developing nervous system: evidence from humans and animal models", *Environ Health Perspect,* 108 Suppl 3(Suppl 3):511-33. doi: 10.1289/ehp.00108s3511.
 
@@ -103,6 +107,4 @@ With technological advancement and better quantitative tools, developmental scie
 
 [^12]: S. J. Leat, N. K. Yadav, E. L. Irving, (2009), "Development of Visual Acuity and Contrast Sensitivity in Children", *Journal of Optometry*, Volume 2, Issue 1, 2009, Pages 19-26, ISSN 1888-4296, <https://doi.org/10.3921/joptom.2009.19.>
 
-Even if the majority of biological milestones remains undetected, postnatal staged-like progression has been interpreted as an indirect proof that **systems that switch off and on at precise times** exist but, rather than influencing the migration of cells and the morpho-genesis of tissues as it happens prenatally, they influence **the individual's behaviour**. In the next post of this series, I will cover the postulates of **Jean Piaget**, that through the observation of his own children in the 1920s formulated **the Stage Theory of Cognitive Development**.
-
-![](images/WhatsApp%20Image%202021-07-29%20at%2018.06.39-03.jpeg)
+Even if the majority of biological milestones remains undetected, postnatal staged-like progression has been interpreted as an indirect proof that systems that switch off and on at precise times influence the individual's behaviour, as well as the migration of cells and the morpho-genesis of tissues prenatally. In the next post of this series, I will cover the postulates of Jean Piaget, that through the observation of his own children in the 1920s formulated the **Stage Theory of Cognitive Development**.
