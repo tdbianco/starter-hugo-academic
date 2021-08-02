@@ -1,7 +1,7 @@
 ---
 title: Introduction to Developmental Psychology
 author: Teresa
-date: '2021-07-27'
+date: '2021-07-29'
 slug: introduction-to-developmental-psychology
 categories:
   - Developmental Psychology
