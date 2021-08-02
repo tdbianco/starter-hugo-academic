@@ -33,7 +33,7 @@ To the visual thinkers out there, I am aware that my formulation of things will 
 
 A disclaimer: most of these texts date back to my PhD years, mostly 2016-2018. I will try to amend anything that is outdated, but some of the references and sources may not be considered recent anymore. I am sure there are new articles and books, but since this is a personal project, I have very little time to dedicate to it.
 
-![](images/WhatsApp%20Image%202021-07-29%20at%2018.06.39(1)-02.jpeg)
+![](images/WhatsApp%20Image%202021-07-29%20at%2018.06.39(3).png)
 
 # The Key Questions of Developmental Psychology
 
@@ -41,7 +41,7 @@ Most people assume that I got into Developmental psychology because I like child
 
 Many of the fundamental questions of Developmental Psychology are retellings of the *Where do we come from* question, just incredibly more specific. It is a little bit like someone, one day, asked *What is a fish*, and the developmental psychologist answered *Well, what is a sea bass? And a shark? And what is a salmon...*
 
-Actually, the most challenging aspect of developmental questions is that every question contains another question. Let's start with one of the oldest question of Developmental Psychology: **do children start from scratch, and heavily depend on experience when they are born, or do they possess some kind of pre-determined scheme**[^1]?
+Actually, the most challenging aspect of developmental questions is that every question contains another question. Let's start with one of the oldest question of Developmental Psychology: do children start from scratch, and heavily depend on experience when they are born, or do they possess some kind of pre-determined scheme[^1]?
 
 [^1]: J.F. Kihlstrom, L. Park, "Cognitive Psychology: Overview", Reference Module in *Neuroscience and Biobehavioral Psychology*, Elsevier, 2018, ISBN 9780128093245, <https://doi.org/10.1016/B978-0-12-809324-5.21702-1.>
 
