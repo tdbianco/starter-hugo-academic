@@ -30,6 +30,6 @@ However, a strange *confusion* started to occur: *mixed models* became an umbrel
 
 Last year, my colleague [Mary Agyapong](https://twitter.com/_MaryAgyapong) and I organised a workshop for introducing and demonstrating Linear Mixed Models in R and SPSS. During this introductory presentation, I went over the Linear Mixed Models *confusion*, random effects, and a few other things (also see the slides below). In the next few weeks, I will also publish R and SPSS demonstrations.
 
-Please do not rely on the subtitles too much, as PowerPoint's automatic captioning does not really pick up my accent! {{< youtube C8XU7RGUljI >}}
+To switch on auto-generated subtitles, use the 5th icon from the right bottom corner of the player! {{< youtube oE0FImMx3p4 >}}
 
 {{% staticref "uploads/The-Hitchhikers-Guide-to-Mixed-Models_0.pdf" "newtab" %}}Slides{{% /staticref %}}
