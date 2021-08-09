@@ -26,6 +26,10 @@ projects: []
 
 As part of this series on Mixed Models, [Mary Agyapong](https://twitter.com/_MaryAgyapong) shared her analytic pipeline to run a mixed model in SPSS using the mixed command.
 
+Our motivation to run this demo was a common misconception of the definition of mixed/multilevel models as a repeated-measures regression only, originating from the fact that SPSS mixed command can be run without specifying the random effect (such model would be a Generalised Estimating Equation (GEE) model, and not a mixed model).
+
+While GEE is a valid method, it will not output the same numerical results of a mixed model run in r with lmer. Therefore, in this presentation, Mary illustrated the steps to specify the random effect in SPSS to obtain the same output in R and SPSS.
+
 As an example, Mary used the `sleepstudy` dataset, the same used in the [Essential Demo of a Multilevel/Mixed Model](https://tdbianco.netlify.app/post/essential-demo-of-a-multilevel-mixed-model) in R.
 
 To switch on auto-generated subtitles, use the 5th icon from the right bottom corner of the player! {{< youtube TCT6cVF7Ueg >}}
