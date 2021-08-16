@@ -1,0 +1,167 @@
+---
+title: "Fitting LMM on the Sleep Study Dataset"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+# Read in the data
+
+```{r}
+library(lme4)
+data("sleepstudy")
+```
+
+Background: On day 0 the subjects had their normal amount of sleep. Starting that night they were restricted to 3 hours of sleep per night for 10 days. The observations represent the average reaction time on a series of tests given each day to each subject (see Belenky et al., 2003)
+Variables: 
+Reaction: Average reaction time (ms). 
+Days:  Number of days of sleep deprivation
+Subject: Subject number on which the observation was made (18)
+
+## Preview the data
+
+```{r}
+head(sleepstudy)
+```
+
+# Fit the linear mixed model
+
+```{r}
+library(lmerTest)
+m <- lmer(Reaction ~ Days + (1 + Days | Subject), data = sleepstudy)
+```
+
+## Visualise the model output
+
+```{r}
+summary(m)
+```
+
+# Visualise the fixed effects
+
+```{r}
+summary(m)$coefficient
+```
+
+# Visualise the variance and standard deviation of the random effect
+
+```{r}
+vc <- VarCorr(m)  
+print(vc, comp=c("Variance","Std.Dev."))
+```
+
+## Calculate the 95% confidence intervals of the random and fixed effects
+
+```{r}
+set.seed(88)
+ci <- confint(m, oldNames=FALSE)
+ci[c(5,6),]
+```
+# Run the Deviance Test
+
+```{r}
+library(car)
+Anova(m, type="III", test.statistic="F")
+```
+# Plotting
+
+# Plot the regression line of 1 "Invented" Subject
+
+```{r}
+new.data <- expand.grid(Days=unique(sleepstudy$Days),
+            Subject="1234")
+library(merTools)
+prediction.int <- predictInterval(m, 
+                newdata=new.data, 
+                which = "full", #"full", "fixed", "random", "all"
+                level = 0.95, 
+                n.sims = 1000, 
+                stat = "mean", #"median", "mean"
+                type = "linear.prediction", #"linear.prediction", "probability"
+                returnSims = FALSE, 
+                seed = 88)
+new.data <- cbind(new.data, prediction.int)
+```
+
+```{r}
+library(ggplot2)
+ggplot(data=new.data) +
+  geom_ribbon(aes(x = Days,
+                  y= fit,
+                  ymax =upr,
+                  ymin = lwr,
+                  group = Subject),
+              alpha=0.5) +
+  geom_path(aes(x = Days,
+                y= fit,
+                group = Subject)) +
+  labs(y = "Reaction Time (fitted)") +
+  ylim(0, 600)
+```
+
+## Plot the regression lines of 3 random subjects
+
+```{r}
+new.data <- expand.grid(Days=unique(sleepstudy$Days),
+            Subject=sample(unique(sleepstudy$Subject)))
+library(merTools)
+prediction.int <- predictInterval(m, 
+                newdata=new.data, 
+                which = "full", #"full", "fixed", "random", "all"
+                level = 0.95, 
+                n.sims = 1000, 
+                stat = "mean", #"median", "mean"
+                type = "linear.prediction", #"linear.prediction", "probability"
+                returnSims = FALSE, 
+                seed = 88)
+new.data <- cbind(new.data, prediction.int)
+```
+
+```{r}
+library(ggplot2)
+ggplot(data=new.data) +
+  geom_ribbon(aes(x = Days,
+                  y= fit,
+                  ymax =upr,
+                  ymin = lwr,
+                  group = Subject),
+              alpha=0.5) +
+  geom_path(aes(x = Days,
+                y= fit,
+                group = Subject)) +
+  labs(y = "Reaction Time (fitted)") +
+  ylim(0, 600)
+```
+
+## Plot all the individual coefficients
+
+```{r}
+ind.coef <- coef(m)$Subject
+ind.coef$Subject <- rownames(ind.coef)
+ggplot() +
+  geom_jitter(data=sleepstudy,
+              aes(x = Days,
+                  y = Reaction,
+                  fill = Subject),
+              alpha = 0.5,
+              shape = 21) +
+  geom_abline(data=ind.coef,
+              aes(intercept = `(Intercept)`,
+              slope = Days,
+              col = Subject),
+              alpha=0.5)  +
+  labs(y = "Reaction Time (fitted)")   +
+  ylim(0, 600)
+```
+
+# Report the results
+
+With the current analysis, we looked at the effect of the number of days of sleep deprivation on reaction time. As fixed effect, we entered Days into the model. As random effect, we had random intercepts and slopes for the effect of Days. We calculated 95% confidence interval with bootstrapping. The average reaction time at baseline (Intercept) was 251.40 (SE = 6.82, CI 95% = 237.68 - 265.12). The average effect of Day (Slope) was 10.46 (SE = 1.54, CI 95% = 7.35 - 13.57). The net increase of reaction times due to days of sleep deprivation (Slope) was significant (Chi-Squared = 45.85(1), p-value < 0.001). Between subjects variation determined a 24.74 points standard deviation around the mean baseline reaction time (CI 95% = 14.38 - 37.71), and a 5.9 points around the Slope (CI 95% = 3.8 - 8.7).           
+
+# Anything to add?
+
+Space for creativity. 

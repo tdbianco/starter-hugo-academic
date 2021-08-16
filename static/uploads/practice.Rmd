@@ -1,0 +1,173 @@
+---
+title: "Fitting LMM on the Stroop Dataset"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+# Read in the data
+
+```{r}
+library(prepdat)
+data("stroopdata")
+```
+
+## Preview the data
+
+```{r}
+head(stroopdata)
+```
+
+## Fix the data format (I did this for you)
+
+Subject and target_type are numerical ("int"), but they are actually categorical variables that do not vary continously but only takes few discrete levels. Therefore, we need to turn them into the correct format: factor.
+
+```{r}
+stroopdata$subject <- as.factor(stroopdata$subject)
+stroopdata$target_type <- as.factor(stroopdata$target_type)
+```
+
+# Fit the linear mixed model
+
+```{r}
+library(lmerTest)
+m <- lmer(rt ~ target_type + (1 | subject), data = stroopdata)
+m1 <- lmer(rt ~ target_type + (1 + target_type | subject), data = stroopdata)
+anova(m, m1)
+```
+
+## Visualise the model output
+
+```{r}
+summary(m)
+```
+# Visualise the fixed effects
+
+```{r}
+summary(m)$coefficient
+```
+
+# Visualise the variance and standard deviation of the random effect
+
+```{r}
+vc <- VarCorr(m)  
+print(vc, comp=c("Variance","Std.Dev."))
+```
+
+## Calculate the 95% confidence intervals of the random and fixed effects
+
+```{r}
+set.seed(88)
+ci <- confint(m, oldNames=FALSE)
+ci
+```
+
+# Run the Deviance Test
+
+```{r}
+library(car)
+Anova(m, type="III")
+```
+
+# Plotting
+
+# Plot the regression line of 1 "Invented" Subject
+
+```{r}
+new.data <- expand.grid(target_type=unique(stroopdata$target_type),
+            subject="1234")
+library(merTools)
+prediction.int <- predictInterval(m, 
+                newdata=new.data, 
+                which = "full", #"full", "fixed", "random", "all"
+                level = 0.95, 
+                n.sims = 1000, 
+                stat = "mean", #"median", "mean"
+                type = "linear.prediction", #"linear.prediction", "probability"
+                returnSims = FALSE, 
+                seed = 88)
+new.data <- cbind(new.data, prediction.int)
+```
+
+```{r}
+library(ggplot2)
+ggplot(data=new.data) +
+  geom_ribbon(aes(x = target_type,
+                  y= fit,
+                  ymax =upr,
+                  ymin = lwr,
+                  group = subject),
+              alpha=0.5) +
+  geom_path(aes(x = target_type,
+                y= fit,
+                group = subject)) +
+  labs(y = "Reaction Time (fitted)") +
+  ylim(0, 2000)
+```
+
+## Plot the regression lines of 3 random subjects
+
+```{r}
+new.data <- expand.grid(target_type=unique(stroopdata$target_type),
+            subject=sample(unique(stroopdata$subject), 3))
+library(merTools)
+prediction.int <- predictInterval(m, 
+                newdata=new.data, 
+                which = "full", #"full", "fixed", "random", "all"
+                level = 0.95, 
+                n.sims = 1000, 
+                stat = "mean", #"median", "mean"
+                type = "linear.prediction", #"linear.prediction", "probability"
+                returnSims = FALSE, 
+                seed = 88)
+new.data <- cbind(new.data, prediction.int)
+```
+
+```{r}
+library(ggplot2)
+ggplot(data=new.data) +
+  geom_ribbon(aes(x = target_type,
+                  y= fit,
+                  ymax =upr,
+                  ymin = lwr,
+                  group = subject),
+              alpha=0.5) +
+  geom_path(aes(x = target_type,
+                y= fit,
+                group = subject)) +
+  labs(y = "Reaction Time (fitted)") +
+  ylim(0, 2000)
+```
+
+## Plot all the individual coefficients
+
+```{r}
+ind.coef <- coef(m)$subject
+ind.coef$subject <- rownames(ind.coef)
+ggplot() +
+  geom_jitter(data=stroopdata,
+              aes(x = target_type,
+                  y = rt,
+                  fill = subject),
+              alpha = 0.5,
+              shape = 21) +
+  geom_abline(data=ind.coef,
+              aes(intercept = `(Intercept)`,
+              slope = target_type2,
+              col = subject),
+              alpha=0.5)  +
+  labs(y = "Reaction Time (fitted)")   +
+  ylim(0, 2000)
+```
+
+# Report the results
+
+With the current analysis, we looked at the effect of target_type on reaction time in a stroop task. As fixed effect, we entered the type of target (congruent "1"/incongruent "2") into the model. As random effect, we had random intercepts and slopes for the effect of the type of target The average reaction time with type of target congruent "1" (Intercept) was 690.96 (CI 95% = 613.37 - 768.55). The average effect of type of target incongruent "2" (Slope) was 113.51 (CI 95% = 81.96 - 145.05). The net increase of reaction times due to target type (Slope) was significant (Chi-Squared = 52.91(1), p-value < 0.001). Between subjects variation determined a ~147 points standard deviation around the mean baseline reaction time (CI 95% = 101.22 - 213.84), and a 49 points around the Slope (CI 95% = 23.08 - 80.09).
+
+# Anything to add?
+
+Space for creativity. 
