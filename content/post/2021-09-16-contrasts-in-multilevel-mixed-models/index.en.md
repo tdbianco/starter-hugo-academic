@@ -25,7 +25,7 @@ image:
 projects: []
 ---
 
-Regression (and multilevel/mixed models) give an estimate of the effect of an independent variable on the dependent variable.
+Regression (and multilevel/mixed models) gives an estimate of the effect of an independent variable on the dependent variable.
 
 When estimating the effect of a categorical independent variable, the mixed model will estimate the effect of each of its levels, and tell us if each effect is significantly different from zero. This is useful information, however, **most researcher will be interested in knowing if the levels of the independent variable differ from each other**.
 
@@ -33,7 +33,7 @@ Taking the `sleepstudy` example again, and consider `Days` as a categorical rath
 
 # Implementing the formula
 
-The first step is to change the format of `Days` from continuous to factor. Second, when running the model, we will remove the fixed intercept, by subtracting `1` from the formula. This substraction does not change the result but will make the successive operations a little handier as it provides the complete display of all the factor levels.
+The first step is to change the format of `Days` from continuous to factor. Second, when running the model, we will remove the fixed intercept, by subtracting `1` from the formula. This subtraction does not change the result but will make the successive operations a little easier as it provides the complete display of all the factor levels.
 
 ```{r}
 # install.packages("lmerTest")
@@ -124,7 +124,7 @@ kable(group)
 | 8   |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     1 |     0 |
 | 9   |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     0 |     1 |
 
-The 1s specify when a level is active - given that we only have one factor, when one level is active (1), all the others are inactive (0). The matrix becomes more complicated if you have more than one factor. We can now specify the custom contrasts we want to compute between the levels, in this case, all levels against Day 1 of the experiment
+The *1s* specify when a level is active - given that we only have one factor, when one level is active (1), all the others are inactive (0). The matrix becomes more complicated if you have more than one factor. We can now specify the custom contrasts we want to compute between the levels, in this case, all levels against Day 1 of the experiment:
 
 ```{r}
 contrasts <- rbind(group["1",] - group["0",],
