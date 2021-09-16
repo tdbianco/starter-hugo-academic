@@ -45,11 +45,11 @@ As I could not be satisfied with a twofold comparison, I fitted 3 linear regress
 
 -   **Non-pooled standard linear repression** (N-SLR): if one wants to obtain individual coefficients (as the mixed model does) from a standard linear regression, this is the most straight-forward way of doing it. I entered subject as predictor, and I excluded the intercept from the equation
 
--   **Individual standard linear repression** (O-SLR): this is the one my supervisor suggested. Thanks to a `for loop` (may tge Gods of real programmers forgive me), I run as many regressions as the number of subjects. Each regression includes one individual subject's data only
+-   **Individual standard linear repression** (O-SLR): this is the one my supervisor suggested. Thanks to a `for loop` (may the Gods of real programmers forgive me), I run as many regressions as the number of subjects. Each regression includes one individual subject's data only
 
 -   **Multilevel/mixed model** (MM): I entered subject in the random effect
 
-I am going to use the `sleepstudy` dataset, and excluding some observations at random, thus leaving a number of subjects an incomplete record. This is a typical situation where mixed modelling is recommended for handling missing data more robustly.
+I am going to use the `sleepstudy` dataset, and excluding some observations at random, thus leaving a number of subjects with an incomplete record. This is a typical situation where mixed modelling is recommended for robustly handling missing data.
 
 The way it does that is to weight each subject's individual coefficient by the number of observations when calculating the average coefficient - assuming that a the individual coefficients of a subject with missing data will be less reliable. This sounds clear enough, however, when I provide this explanation in real life, this is what most people hear:
 
