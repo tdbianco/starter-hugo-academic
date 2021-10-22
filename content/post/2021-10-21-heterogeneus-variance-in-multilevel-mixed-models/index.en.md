@@ -1,8 +1,8 @@
 ---
-title: Modelling Variance in Multilevel/Mixed Models - Part 1
+title: Modelling Variance in Multilevel/Mixed Models
 author: Teresa
 date: '2021-10-21'
-slug: modelling-variance-in-multilevel-mixed-models-part-1
+slug: modelling-variance-in-multilevel-mixed-models
 categories:
   - R
 tags:
