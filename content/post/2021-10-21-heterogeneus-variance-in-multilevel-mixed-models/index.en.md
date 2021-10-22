@@ -264,7 +264,11 @@ VarCorr(model.hv_w)
 
 ![](images/Screenshot%202021-10-22%20at%2010.52.32.png)
 
-The variance of group P is a little lower, because we assigned some of the variance to within-subject variability, that can be seen on the diagonal of the variance-covariance matrix:
+The variance of group P is a little lower, because the variable `Days` is carrying some of that weight - *because time never stands still. Ya know?*
+
+![](images/CC--h5zp62I4cOD72ItcBpHHTMVGtdBSUVxu_Au7Fqs.png)
+
+The variance carried by `Days` is within-subject variability, that can be seen on the diagonal of the variance-covariance matrix:
 
 ```{r}
 getVarCov(model.hv_w, type="marginal", individuals = c(1,3)) 
@@ -287,17 +291,17 @@ wss.v <- function(model) {
 kable(cbind(Days=1:9, wss.v(model.hv_w)))
 ```
 
-| Days|       wss|
-|----:|---------:|
-|    1|  730.6408|
-|    2|  609.2734|
-|    3|  127.4995|
-|    4|  146.3142|
-|    5| 1265.4567|
-|    6| 2478.0490|
-|    7| 1833.4749|
-|    8| 3787.2097|
-|    9| 5596.1655|
+| Days |       wss |
+|-----:|----------:|
+|    1 |  730.6408 |
+|    2 |  609.2734 |
+|    3 |  127.4995 |
+|    4 |  146.3142 |
+|    5 | 1265.4567 |
+|    6 | 2478.0490 |
+|    7 | 1833.4749 |
+|    8 | 3787.2097 |
+|    9 | 5596.1655 |
 
 Each row corresponds to the variance for each unit (Days, in this example). One may observe that the variance seem to decrease until Day 4, but them starts to increase a lot. This kind of information may be useful for your study, or not. As mentioned at the beginning, I see modelling the variance as hypothesis-testing, really, and not just an assumption to be taken lightly.
 
