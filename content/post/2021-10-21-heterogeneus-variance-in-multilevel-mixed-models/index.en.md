@@ -264,7 +264,7 @@ VarCorr(model.hv_w)
 
 ![](images/Screenshot%202021-10-22%20at%2010.52.32.png)
 
-The variance of group P is a little lower, because we assigned some of the variance to within-subject variability,, that can be seen on the diagonal of the variance-covariance matrix:
+The variance of group P is a little lower, because we assigned some of the variance to within-subject variability, that can be seen on the diagonal of the variance-covariance matrix:
 
 ```{r}
 getVarCov(model.hv_w, type="marginal", individuals = c(1,3)) 
