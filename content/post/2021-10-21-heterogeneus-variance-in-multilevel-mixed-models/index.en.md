@@ -264,7 +264,9 @@ VarCorr(model.hv_w)
 
 ![](images/Screenshot%202021-10-22%20at%2010.52.32.png)
 
-The variance of group P is a little lower, because the variable `Days` is carrying some of that weight - *because time never stands still. Ya know?*
+The variance of group P is a little lower, because the variable `Days` is carrying some of that weight - *because time never stands still. Ya know?*[^2]
+
+[^2]: Jet Black from Cowboy Bebop on adding weights to mixed models.
 
 ![](images/CC--h5zp62I4cOD72ItcBpHHTMVGtdBSUVxu_Au7Fqs.png)
 
