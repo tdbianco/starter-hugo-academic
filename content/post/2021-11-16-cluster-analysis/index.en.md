@@ -1,5 +1,5 @@
 ---
-title: Cluster Analysis
+title: Cluster Analysis of Simulated Eye-Tracking Data
 author: Teresa
 date: '2021-11-16'
 slug: cluster-analysis
@@ -21,6 +21,36 @@ image:
   preview_only: no
 projects: []
 ---
+
+# What is Cluster Analysis?
+
+Cluster analysis is a **grouping technique** that aims to put in the same group (or cluster) objects that are more **similar** to each other. The intent is very similar to what our brain does when we try to recognise a **pattern** and group elements based on similarity.
+
+*How many clusters does your brain work out to group these tiles?*
+
+![*Squared tiles of various colous*](images/tiles-shapes-2617112_1920.jpeg)
+
+If you ask your flatmate or your coworker, it is possible that they will provide a completely different answer. Similarly, you can use different algorithms to work out the number of clusters that better fits your data, however, different algorithms may provide different answers.
+
+An example of a field of application of cluster analysis is **spatial clustering**, or grouping data points based on their location in space. This might sound like a trivial task if you are considering data that is well segregated in space, but it might become challenging if data is highly packed and densely occupies the space.
+
+This is often the case of **eye-tracking data** - the traces of someone's gaze on a screen as recorded by an eye-tracker. Gaze is quick and volatile, and people tend to look away and back a lot in short periods of time, therefore, gaze data often look extremely chaotic. Here is an example of gaze data from several people in approximately 20 seconds:
+
+![](images/eye-tracking%20art.png "A myriad of dots in shades of blue")
+
+To make sense of this mess, scientist often work out clusters that are predefined.
+
+For example, if gaze data has been recorded while people were looking at the painting 'Sleeping Beauty' by Henry Meynell Rheam, it may be reasonable to cluster the gaze data based on the main elements of the painting - the blooming tree on the right, the sleeping beauty at the centre, the prince charming on the top half, and the background (floor and background elements of the room).
+
+![The paining 'Sleeping Beauty' by H. Meynell Rheam portrays the sleeping princess laying on her bed and prince charming leaning on her and looking at her face.](images/Henry_Meynell_Rheam_-_Sleeping_Beauty.jpeg)
+
+The assumption is that most people tend to look at the most salient features of the picture, and that the gaze that falls within a certain area (termed ***Area of Interest***) is meant to explore and process the individual element/s present in that area. This assumption is partly based on the physiology of the eye, that possesses the most sensitive receptors in one tiny area only, the *macula*, and need to move around to ensure a high resolution reconstruction of one individual element.
+
+However, assuming that the same rules work for everyone always comes at a cost. Most people is not every person: some people may actually explore prince charming as part of the background, who knows? Drawing a boundary between prince charming and the background may introduce a **bias** in the analysis. Also, choosing the level of **granularity** of the Areas of Interest may reflect the researchers' sensitiveness, for example, a highly analytic observer may decide to break down the sleeping beauty into **smaller** Areas of Interest, such as her head, hair, trunk, arms, while a holistic one may draw just one. Sometimes, researchers may even have a look at the data, and draw the Areas of Interest around the features that people look at the most - but that's cheating.
+
+Applying Cluster Analysis is a way of correcting some of the subjectivity embedded in grouping gaze data into Areas of Interest. It may not always be applicable, or make sense, and it does not avoid subjectivity completely. If you have drawn your Areas of Interest, it may be interesting to compare them with data-driven clusters detected by an algorithm.
+
+In the following paragraph, we will apply different clustering algorithms to simulated (fake) eye-tracking data.
 
 # Generate the data
 
@@ -82,7 +112,7 @@ ggplot(data=dc, aes(x=x.n, y=y.n, col=rcl)) +
 
 ![](images/Rplot03-01.jpeg)
 
-if we remove the colour label, the data looks very much like clustered data that you may obtain from an eye-tracking experiment:
+if we remove the colour labels, the data looks very much like the chaotic, densely packed data that you may obtain from an eye-tracking experiment:
 
 ```{r}
 ggplot(data=dc, aes(x=x.n, y=y.n)) + 
@@ -93,9 +123,7 @@ ggplot(data=dc, aes(x=x.n, y=y.n)) +
 
 ![](images/Rplot04.jpeg)
 
-## Clusters in the data
-
-We often find clusters in eye-tracking data because they reflect the areas that people prefer to look at, for example in a picture. Preferred areas - often termed *areas of interest* - are determined by visual salience but also the participant's own interests, experiences and background.
+that could be super-imposed on the sleeping beauty painting:
 
 ```{r}
 library(grid)
@@ -110,7 +138,7 @@ ggplot(data=dc, aes(x=x.n, y=y.n)) +
 
 ![](images/Rplot05.jpeg)
 
-Clustering methods will allow to estimate a number of clusters that are present in the data; in the case of eye-tracking data, they may correspond to areas of interest.
+The following clustering methods will allow to estimate a number of clusters in the simulated data, that could be later used as Areas of Interest.
 
 # K-means Clustering Method
 
@@ -184,7 +212,7 @@ labs(title="K-means", col="Cluster") +
 
 ![](images/Rplot07.jpeg)
 
-Again, note that the clusters found in the data with this algorithm do not correspond to the initial subdivision that we know to be true - because we artificially instilled it in the data.
+Note that the clusters found in the data with this algorithm do not correspond to the initial subdivision that we know to be true around the 6 artificial attractors.
 
 # K-Medoids
 
@@ -279,19 +307,14 @@ points <- ggplot() +
   labs(y="") +
   guides(color=FALSE)
   
-
-library(ggpubr)
-twop1 <- ggarrange(pic, points, ncol = 2, common.legend = TRUE, legend = "right")
-twop1 <- annotate_figure(twop1,
-               top = text_grob("Multivariate kernel density estimation"),
-               bottom = text_grob("Scaling: SD \n Bandwidth: 0.3",
-                                  hjust = 1),
-               left = text_grob("y.n", rot = 90))
-# ggsave(plot = twop1, filename = "twop1-2.pdf")
-twop1
+library(patchwork)
+combined <- pic / points & theme(legend.position = "bottom")
+combined + plot_layout(guides = "collect") + plot_annotation(
+  title = 'Multivariate kernel density estimation',
+  subtitle = 'Scaling: SD; Bandwidth: 0.3')
 ```
 
-![](images/Rplot09-01.jpeg)
+![](images/Rplot01-02.jpeg)
 
 The plots show the level of density across the whole distribution. We can use the density distribution to cluster the data. The algorithm finds 3 clusters:
 
@@ -362,12 +385,15 @@ cl <- ggplot(data=sc.d, aes(x=x.n, y=y.n)) +
   labs(shape="Cluster Center") +
   geom_point(aes(x=x.n, y=y.n, shape=as.factor(cc)), 
              fill="blue", data=coo, size=4) + 
-  geom_encircle(data = sc.d.1, col="red", linetype="twodash") + 
+  scale_shape_manual(values = c(21,22,23,24)) + 
+  theme(legend.position = "bottom") +
+  geom_encircle(data = sc.d.1, col="red", linetype="solid") + 
   geom_encircle(data = sc.d.2, col="red", linetype="longdash") + 
-  geom_encircle(data = sc.d.3, col="red", linetype="dotdash") + 
-  geom_encircle(data = sc.d.4, col="red", linetype="solid") 
+  geom_encircle(data = sc.d.3, col="red", linetype="dotdash") +
+  labs(title = "Mean Shift Clustering",
+       subtitle = "Scaling: SD; Bandwidth: 0.3")
 
-twop2 <- annotate_figure(cl,
+combined2 <- annotate_figure(cl,
                top = text_grob("Mean Shift Clustering"),
                bottom = text_grob("Scaling: SD \n Bandwidth: 0.3",
                                   hjust = 1),
@@ -375,20 +401,20 @@ twop2 <- annotate_figure(cl,
 twop2
 ```
 
-![](images/Rplot12.jpeg)
+![](images/Rplot02-03.jpeg)
 
 Differently from the other two solutions, this clustering does not display a *sharp* demarcation between the areas, but provides a certain degree of overlap. This mimics more efficiently the *real* situation of our data, where the areas of attraction of the artificial points did overlap.
 
-Despite the fact that it seems more adept to the real data, this solution may present a less general solution, for example for application to external datasets. Being *anatomically* fitted on some data distribution, may detect clusters that are not transferable.
+Despite the fact that it seems more adept to the real data, this solution may be less generalisable, for example for application to external datasets. Being *anatomically* fitted on some data distribution, may reveal clusters that are not transferable.
 
 # Conclusions
 
 The overall conclusions of this demonstrations are:
 
--   Cluster are not real. They are the best estimate based on algorithms that tend to minimise error, and do not necessarily overlap with subtending processes
+-   Cluster are not real! They are the best estimate based on algorithms that tend to minimise error, and do not necessarily overlap with subtending processes
 
--   When there is no information on the processes that may have clustered the data, hence the researcher does not possess an expectation in terms of how many clusters are present in the data, it is a good idea to compare different clustering methods
+-   When there is no information on the processes that may have lead to grouping in the data, hence the researcher does not possess an expectation in terms of how many clusters they may find, it is a good idea to compare different clustering methods
 
--   If you have a big enough dataset, save a *test* set to validate the cluster solution
+-   If you have a big enough dataset, save a *test* set to validate your cluster solution
 
--   Cluster solutions that *fit the data like a glove* are often weighted by increased *variance* that makes them less reliable if the purpose is to replicate on external dataset. This is often the case with eye-tracking datasets - we want to find areas of interest that we can use across studies. So be careful!
+-   Cluster solutions that *fit the data like a glove* are often down-weighted by increased *variance* that makes them less able to replicate on external datasets. This is often one of the main aims with eye-tracking studies - we want to find Areas of Interest that we can use across studies. So be careful!
