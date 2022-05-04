@@ -7,8 +7,11 @@ main:
   - name: About
     url: '#about'
     weight: 20
-  - name: Posts
-    url: '#posts'
+  - name: R&Stats Tutorials
+    url: '#r-tut'
+    weight: 60
+  - name: Blog
+    url: '#blog'
     weight: 60
   - name: Contact
     url: '#contact'

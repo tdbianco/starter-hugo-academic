@@ -3,7 +3,8 @@ title: Why the Scientific Method comes from Creativity - of Galileo the Unruly S
 author: Teresa
 date: '2021-08-12'
 slug: why-the-scientific-method-comes-from-creativity-of-galileo-the-unruly-scientist
-categories: []
+categories:
+- Blog
 tags:
   - science
   - philosophy

@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 6
 
-title: Recent Posts
+title: R&Stats Tutorials
 subtitle:
 
 content:
@@ -20,7 +20,7 @@ content:
   # Filter on criteria
   filters:
     author: ""
-    category: ""
+    category: "R Tutorial"
     tag: ""
     exclude_featured: false
     exclude_future: false
