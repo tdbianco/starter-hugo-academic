@@ -7,20 +7,20 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 3
+weight: 7
 
-title: Blog
+title: 'Video & Talks'
 subtitle:
 
 content:
-  # Page type to display. E.g. post, talk, publication...
-  page_type: post
+  # Page type to display. E.g. post, event, publication...
+  page_type: event
   # Choose how many pages you would like to display (0 = all pages)
   count: 3
   # Filter on criteria
   filters:
     author: ""
-    category: "Blog"
+    category: ""
     tag: ""
     exclude_featured: false
     exclude_future: false
@@ -37,5 +37,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 3
 ---

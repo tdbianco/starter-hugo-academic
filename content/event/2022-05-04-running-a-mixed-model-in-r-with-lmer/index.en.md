@@ -1,10 +1,10 @@
 ---
-title: Running A Mixed Model in R with lmer
-author: Teresa
+title: Running a Mixed Model in R with lmer
+author: Teresa Del Bianco
 date: '2021-08-16'
 slug: running-a-mixed-model-in-r-with-lmer
 categories:
-  - R
+  - Talk
 tags:
   - linear regression
   - mixed model
@@ -17,7 +17,7 @@ subtitle: ''
 summary: ''
 authors: []
 lastmod: '2021-08-16T14:05:31+02:00'
-featured: yes
+featured: no
 image:
   caption: ''
   focal_point: ''
@@ -25,7 +25,11 @@ image:
 projects: []
 ---
 
-In this final video of the series, I demonstrate running a simple mixed model in R with the function `lmer`. {{< youtube U950uo0XxCg >}}
+{{< youtube U950uo0XxCg >}}
+
+<br>
+
+In this final video of the series, I demonstrate running a simple mixed model in R with the function `lmer`.
 
 This video is a step-by-step demonstration of how to run a mixed model in R with lmer, using the `sleepstudy` dataset.
 

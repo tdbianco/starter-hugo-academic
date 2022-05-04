@@ -4,7 +4,7 @@ author: Teresa
 date: '2021-07-27'
 slug: interaction-and-assumptions-of-mixed-model
 categories:
-  - R
+  - R Tutorial
 tags:
   - assumptions
   - mixed model

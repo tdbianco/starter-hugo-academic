@@ -4,7 +4,7 @@ author: Teresa
 date: '2021-07-26'
 slug: essential-demo-of-a-multilevel-mixed-model
 categories:
-  - R
+  - R Tutorial
 tags:
   - linear regression
   - mixed model

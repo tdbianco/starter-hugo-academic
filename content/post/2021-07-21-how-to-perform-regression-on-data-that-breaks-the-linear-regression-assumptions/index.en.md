@@ -4,7 +4,7 @@ author: Teresa
 date: '2021-07-21'
 slug: linear-regression-on-transformed-variables
 categories:
-  - R
+  - R Tutorial
 tags:
   - assumptions
   - linear regression

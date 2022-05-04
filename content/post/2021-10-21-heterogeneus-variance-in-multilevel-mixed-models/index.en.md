@@ -4,7 +4,7 @@ author: Teresa
 date: '2021-10-21'
 slug: modelling-variance-in-multilevel-mixed-models
 categories:
-  - R
+  - R Tutorial
 tags:
   - mixed model
   - R

@@ -1,10 +1,10 @@
 ---
-title: Running A Mixed Model in SPSS with the mixed Command
-author: Teresa
+title: Running a Mixed Model in SPSS  with the mixed Command
+author: Teresa Del Bianco
 date: '2021-08-09'
 slug: running-a-mixed-model-in-spss-with-the-mixed-command
 categories:
-  - Statistics
+  - Talk
 tags:
   - linear regression
   - mixed model
@@ -15,14 +15,18 @@ tags:
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-08-09T16:20:59+01:00'
-featured: yes
+lastmod: '2022-05-04T11:53:41+01:00'
+featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
 projects: []
 ---
+
+{{< youtube TCT6cVF7Ueg >}}
+
+<br>
 
 As part of this series on Mixed Models, [Mary Agyapong](https://twitter.com/_MaryAgyapong) shared her analytic pipeline to run a mixed model in SPSS using the mixed command.
 
@@ -32,7 +36,7 @@ While GEE is a valid method, it will not output the same numerical results of a 
 
 As an example, Mary used the `sleepstudy` dataset, the same used in the [Essential Demo of a Multilevel/Mixed Model](https://tdbianco.netlify.app/post/essential-demo-of-a-multilevel-mixed-model) in R.
 
-To switch on auto-generated subtitles, use the 5th icon from the right bottom corner of the player! {{< youtube TCT6cVF7Ueg >}}
+To switch on auto-generated subtitles, use the 5th icon from the right bottom corner of the player!
 
 For Mary's slides and further information see:
 

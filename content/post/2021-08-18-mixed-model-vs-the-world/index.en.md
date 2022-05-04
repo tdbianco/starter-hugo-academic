@@ -4,7 +4,7 @@ author: Teresa
 date: '2021-08-18'
 slug: mixed-model-vs-the-world
 categories:
-  - R
+  - R Tutorial
 tags:
   - linear regression
   - mixed model

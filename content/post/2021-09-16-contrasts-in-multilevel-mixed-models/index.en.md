@@ -4,7 +4,7 @@ author: Teresa
 date: '2021-09-16'
 slug: contrasts-in-multilevel-mixed-models
 categories:
-  - R
+  - R Tutorial
 tags:
   - linear regression
   - mixed model

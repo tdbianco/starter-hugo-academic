@@ -4,7 +4,7 @@ author: Teresa
 date: '2021-07-21'
 slug: the-assumptions-of-linear-regression
 categories:
-  - R
+  - R Tutorial
 tags:
   - R
   - rstats

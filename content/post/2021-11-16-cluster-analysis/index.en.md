@@ -4,7 +4,7 @@ author: Teresa
 date: '2021-11-16'
 slug: cluster-analysis
 categories:
-  - R
+  - R Tutorial
 tags:
   - cluster analysis
   - statistics
