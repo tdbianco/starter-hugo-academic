@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 8
 
-title: Recent Publications
+title: First-Authored Publications
 subtitle: ''
 
 content:
