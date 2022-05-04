@@ -3,8 +3,7 @@ title: Running a Mixed Model in R with lmer
 author: Teresa Del Bianco
 date: '2021-08-16'
 slug: running-a-mixed-model-in-r-with-lmer
-categories:
-  - Talk
+categories: []
 tags:
   - linear regression
   - mixed model
@@ -13,7 +12,7 @@ tags:
   - random effects
   - rstats
   - statistics
-subtitle: ''
+subtitle: 'A Workshop on Mixed Models Online Event 3/3'
 summary: ''
 authors: []
 lastmod: '2021-08-16T14:05:31+02:00'

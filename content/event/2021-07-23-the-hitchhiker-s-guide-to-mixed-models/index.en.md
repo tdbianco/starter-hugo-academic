@@ -3,8 +3,7 @@ title: The Hitchhiker's Guide to Mixed Models
 author: Teresa Del Bianco
 date: '2021-07-23'
 slug: the-hitchhiker-s-guide-to-mixed-models
-categories:
-  - Talk
+categories: []
 tags:
   - mixed model
   - regression
@@ -12,7 +11,7 @@ tags:
   - rstats
   - statistics
   - random effects
-subtitle: ''
+subtitle: 'A Workshop on Mixed Models Online Event 1/3'
 summary: ''
 authors: []
 lastmod: '2022-05-04T11:55:51+01:00'

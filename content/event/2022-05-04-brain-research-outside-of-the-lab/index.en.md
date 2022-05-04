@@ -1,7 +1,7 @@
 ---
 title: Brain Research Outside of the Lab
 author: Teresa Del Bianco
-date: '2022-05-04'
+date: '2020-06-01'
 slug: brain-research-outside-of-the-lab
 categories:
   - Talk

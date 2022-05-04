@@ -3,8 +3,7 @@ title: Running a Mixed Model in SPSS  with the mixed Command
 author: Teresa Del Bianco
 date: '2021-08-09'
 slug: running-a-mixed-model-in-spss-with-the-mixed-command
-categories:
-  - Talk
+categories: []
 tags:
   - linear regression
   - mixed model
@@ -12,7 +11,7 @@ tags:
   - regression
   - statistics
   - SPSS
-subtitle: ''
+subtitle: 'A Workshop on Mixed Models Online Event 2/3'
 summary: ''
 authors: []
 lastmod: '2022-05-04T11:53:41+01:00'
