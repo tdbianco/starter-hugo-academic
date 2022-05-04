@@ -19,6 +19,9 @@ main:
   - name: Video & Talks
     url: '#event'
     weight: 60
+  - name: Publications
+    url: '#publications'
+    weight: 60
   - name: Contact
     url: '#contact'
     weight: 80
