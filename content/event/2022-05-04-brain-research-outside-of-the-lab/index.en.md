@@ -3,8 +3,7 @@ title: Brain Research Outside of the Lab
 author: Teresa Del Bianco
 date: '2020-06-01'
 slug: brain-research-outside-of-the-lab
-categories:
-  - Talk
+categories: []
 tags:
   - brain
   - research
@@ -14,7 +13,7 @@ tags:
   - scientific method
   - developmental psychology
   - psychology
-subtitle: ''
+subtitle: 'The Birkbeck Babylab Coffee Talks'
 summary: ''
 authors: []
 lastmod: '2022-05-04T11:46:55+01:00'
