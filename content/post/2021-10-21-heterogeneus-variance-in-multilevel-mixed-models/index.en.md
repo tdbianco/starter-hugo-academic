@@ -231,13 +231,10 @@ VarCorr(model.hv_ddm)[2]
 Try it out to believe!
 
 ```{r}
-2377 + 711.6750
-3088.7 - 711.6750
+2377 - 3088.675
 ```
 
-> `[1] 3088.675`
->
-> `[1] 2377.025`
+> \[1\] -711.675
 
 ## Heterogeneity of within-subject residuals
 
