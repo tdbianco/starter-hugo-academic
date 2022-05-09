@@ -14,13 +14,13 @@ subtitle:
 
 content:
   # Page type to display. E.g. post, talk, publication...
-  page_type: post
+  page_type: book
   # Choose how many pages you would like to display (0 = all pages)
   count: 5
   # Filter on criteria
   filters:
     author: ""
-    category: "Practical Guides"
+    category: ""
     tag: ""
     exclude_featured: false
     exclude_future: false
