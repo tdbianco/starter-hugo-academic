@@ -8,6 +8,10 @@ weight: 2
 editor_options: 
   markdown: 
     wrap: 72
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
 ---
 
 ## You need to be calm.
@@ -28,8 +32,8 @@ pillars:
 2.  [If the child cries, it is not out of pain, but because they are not
     having it in their own way](#no-eeg-no-cry)
 
-3.  [There is only one way to achieve that the child rejects any
-    interaction with the equipment: they have to forget about the
+3.  [There is only one way to achieve that the child does not reject the
+    equipment: they must forget about the
     equipment](#the-first-rule-about-eeg-club-is-you-do-not-talk-about-eeg-club)
 
 ### Nobody hurts
@@ -93,8 +97,8 @@ that we did, we feel awful: are we monsters? Shall we stop? Is it all
 wrong and unnatural? But a child's cry has evolved thousands of years
 exactly to trigger this kind of feeling - it is instinctive and it does
 not mean that what you are doing is harmful. It is simply novel.
-**Turning the tides and calming the child all depends if you let that
-cry arouse your negative feelings**.
+*Turning the tides and calming the child all depends if you let that cry
+arouse your negative feelings.*
 
 Just like you ignore turbulence on a plane, behave calmly to feel calm:
 keep smiling, release your muscles, and focus on nice distracting things
@@ -102,9 +106,9 @@ keep smiling, release your muscles, and focus on nice distracting things
 
 **Fight against the fear that what we do may traumatise children**: this
 is absolutely untrue - what we do with them is short and insignificant
-and will simply leave no mark. **When the session is over, and the child
+and will simply leave no mark. *When the session is over, and the child
 is free to go, rest assured that - even if they cried for half an hour -
-they will forget about the whole experience and go on with their life.**
+they will forget about the whole experience and go on with their life.*
 The same applies to when you had an absolute fantastic time with the
 child: they will forget you, you are as meaningful as the entertainer
 that they stayed with for half an hour while their parents shopped in
@@ -126,7 +130,7 @@ this whole time.
 There are two ways (that I know) to make the child forget the cap:
 
 1.  **Literally overwhelm them with distraction, entertainment and
-    rewar**
+    reward**
 
     > You will have to continuously interact with the child from start
     > to end and make them have the ***best*** time of their life. This

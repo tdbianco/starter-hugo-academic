@@ -15,6 +15,11 @@ type: book
 
 # Position of this page in the menu. Remove this option to sort alphabetically.
 weight: 1
+
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
 ---
 
 **Hello adventurer!**
@@ -39,4 +44,4 @@ We as researchers must expect that children, parents and testing conditions prof
 
 And, it is true: you can collect excellent data from crying children.
 
-![The supervisor's move with tiny hands doesn't work](images/IMG_20191015_131657982-ANIMATION-02.gif)
+![](images/IMG_20191015_131801824.png)
