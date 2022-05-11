@@ -30,7 +30,7 @@ They showed him their CV. When the Professor looked at the list of their publica
 
 ![](images/Screenshot%202022-05-11%20at%2014.35.57.png)
 
-There is a problem in academia (although I am sure it is not limited to academia): 95% of the things that we do, do not count towards our CV and achievements. And any endevour that does not get published count as almost nothing. But that's not the specific topic I want to discuss here.
+There is a problem in academia (although I am sure it is not limited to academia): 95% of the things that we do, does not count towards our CV and achievements. And any endevour that does not get published count as almost nothing. But that's not the specific topic I want to discuss here.
 
 I want to try to answer to that Professor's question: *How is it possible?*
 
@@ -50,9 +50,9 @@ To partly answer to that question, I can tell about my first postdoc publication
 
 ## November 2018: The Analysis
 
-**I started analyzing the data that then built my first postdoc paper paper in the winter of 2018,** maybe one month after I started my first contract after completing my PhD and a short period in the private sector. This was a secondary data analysis of a big cohort assembled years before. I was not around at that time, so to actually get to analyse the data I had to figure out a lot of stuff about the study, asking, discussing, negotiating and waiting on people - a process that took at least the whole winter.
+**I started analyzing the data that then built my first postdoc paper in the winter of 2018,** maybe one month after I started my first contract after completing my PhD and a short period in the private sector. This was a secondary data analysis of a big cohort assembled years before. I was not around at that time, so to actually get to analyse the data I had to figure out a lot of stuff about the study, asking, discussing, negotiating and waiting on people - a process that took at least the whole winter.
 
-**After I was all set, I re-run the analysis entirely with major changes at least 3 times** - once because I learnt a method that I thought was a better fit for the data (around the spring of 2019), a second time because of an error (summer 2019), and a last time because I dropped some of it and went for another direction (autumn 2019). How did this take so long? That I would analyse data was implicit, but not actually included in my contract: I was paid to set up, coordinate and follow up multiple studies that were just starting - and that of course had to take priority.
+**After I was all set, I re-run the analysis entirely with major changes at least 3 times** - once because I learnt a method that I thought was a better fit for the data (spring of 2019), a second time because of an error (summer 2019), and a last time because I dropped some of it and went for another direction (autumn 2019). How did this take so long? That I would analyse data was implicit to my role, but not actually included in my contract: I was paid to set up, coordinate and follow up multiple studies that were just starting and far from providing analysis and publication material - and that of course had to take priority.
 
 ## November 2019: The Draft
 
@@ -60,7 +60,7 @@ To partly answer to that question, I can tell about my first postdoc publication
 
 ## Spring 2020: The Reviews
 
-**On the 3rd of March 2020, I submitted it to a journal.** In mid-May, we received four peer-reviews.
+**On the 3rd of March 2020, I submitted the draft to a journal.** In mid-May, we received four peer-reviews.
 
 Peer-review is an anonymous feedback from an expert in the field invited by the journal's editor to advice whether the paper is fit for publication or not - for free. Peer-review was instituted after lots of influential papers were criticised or even retracted because they could not be replicated - known as the Replication Crisis - that, I believe, was the end of the legendary golden era that nobody talks about.
 
@@ -70,9 +70,9 @@ In academia, everyone peer-reviews: it is, by many, considered free labour, but 
 
 **Two of the reviews that the paper received were good**: reviewer one was enthusiastic - he had even signed his feedback to reveal his identity. Reviewer three was okay - short, concise, with a bit of constructive advise, but certainly positive.
 
-**Reviewer two - the feared reviewer two - provided one of those that I call apocalyptic feedback**. They found that the analytic approach was *problematic*, even *worrying*, and criticised it profoundly with pages of comments. Their criticism was mostly due to the fact they did not fully understand the analysis (sorry). Plus, they inferred that, since I was advertising a method that was novel, I was also implying that any other method that had been used before was rubbish. Their methods included, I suppose. Not surprisingly, reviewer two was also harsh, and the frustration of having to comment on our draft transpired unfiltered.
+**Reviewer two - the feared reviewer two - provided one of those that I call apocalyptic feedback**. They found that the analytic approach was *problematic*, even *worrying*, and criticised it profoundly with pages of comments. Their criticism was mostly due to the fact they did not fully understand the analysis (sorry). Plus, they inferred that, since I was advertising a method that was novel, I was also implying that any other method that had been used before was rubbish. Their methods included, I suppose. Not surprisingly, reviewer two's tone was harsh, and the frustration of having to comment on our draft transpired unfiltered.
 
-**Reviewer four - that the editor had probably sought to try to decide what to do given the stark contrast between reviewers one and three and reviewer two - was tepid**, did not comment on anything positive, but also expressed some criticism. Therefore, the editor decided to *reject* - however, given that the peer-review had ended in a draw, proposed to transfer the draft with the attached reviews to another journal of the same publisher, but less prestigious journal.
+**Reviewer four - that the editor had probably sought to try to decide what to do given the stark contrast between reviewers one and three and reviewer two - was tepid**, did not comment on anything positive, but also expressed some criticism. Therefore, the editor decided to *reject* - however, given that the peer-review had ended in a draw, proposed to transfer the draft with the attached reviews to another journal of the same publisher, but less prestigious.
 
 **We accepted: now the task was to address *all* of the reviewers' concerns.** I worked on the responses to the reviewers for about a month. Implementing as many comments as possible is the easiest way of having the reviewers and the editor accept your revision. That basically means that you re-write most of your paper, and you provide a point-by-point response to all of the comments, with reference to the page and line where you implemented the change. Of course, I could not implement some of reviewer two's comments without dumping my own work, so I wrote paragraphs - pages - to justify the analytic approach and explaining it more clearly and deeply. As I said to my supervisor, I basically wrote a second paper.
 
