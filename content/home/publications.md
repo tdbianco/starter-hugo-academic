@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 8
+weight: 9
 
 title: First-Authored Publications
 subtitle: ''
