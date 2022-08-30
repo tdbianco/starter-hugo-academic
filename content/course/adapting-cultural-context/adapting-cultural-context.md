@@ -18,8 +18,8 @@ image:
 works everywhere.** Specific examples can inspire people that are
 testing in the countries I refer to below, or in similar conditions,
 however, three on four of the settings where I have tested were
-high-income, and all of them were urban and centered around a University
-- so not a very good representation of the real big world.
+high-income, and all of them were urban and centered around a
+University - not a very good representation of the real big world.
 
 **So, what I really mean with the below examples is to show the extent
 of adaptation and flexibility that is needed to test successfully in
@@ -50,11 +50,12 @@ participate in a research study with me.
 > "Can you imagine, going all the way and walking into the hospital with
 > a baby? I said no!"
 
-She was still aghast by just recalling that memory, almost after 30
-years. Of course, I was already a researcher when she told me that story
-- calling and emailing parents in the hope that they would think
+She was still aghast by just recalling that memory, after almost 30
+years. Of course, I was already a researcher when she told me that
+story, calling and emailing parents in the hope that they would think
 differently than her. But I think that her reaction was pretty typical
-and can be often encountered even 30 years later.
+and can be often encountered when researching in Italy even 30 years
+later.
 
 So, testing in Italy is not just a matter of figuring out how to do the
 science, but it includes convincing parents that a researcher is
@@ -63,9 +64,9 @@ actually a person, and that research has nothing to worry about.
 At the center where I was working, I would recruit the parents on their
 way in/out of activity sessions that their children attended - so just
 like "*Hello! I am the resident PhD student here, do you have five
-minutes to listen to what I am doing*?" Then, I would basically spend as
-much time as needed chatting with them, getting to know them before even
-getting to the research.
+minutes to listen to what I am doing*?". Then, I would basically spend
+as much time as needed chatting with them, getting to know them before
+even getting to the research.
 
 Often, this phase worked also as a sort of acclimatization for their
 child, that was maybe sitting on their lap or playing in close
@@ -91,12 +92,12 @@ eye-tracking and EEG with infants aged 5 to 12 months.
 
 I found that Swedish parents were relaxed and generally demonstrated
 interest in research. On my first day of testing, I was actually shocked
-because the parent gave me their baby to hold one second after they met
-me, to run to the toilet. If not giving you their child to hold as a
-first thing, they often put him on the ground to freely explore, so I
-would always make myself ready to take the child in my arms, and scan
-the carpet for small pieces of things to avoid that they picked it up
-and put it in their mouth.
+because one parent gave me their baby to hold one second after they had
+met me, and ran to the toilet. If not giving you their child to hold as
+a first thing, they often put him on the ground to freely explore, so I
+would always be ready to take the child into my arms, and scan the
+carpet for small pieces of things to avoid that they picked it up and
+put it in their mouth.
 
 The good mood of the session depended a lot on the baby feeling like
 they were free to explore and owned the space. If I noticed that the
@@ -125,11 +126,11 @@ because teachers use them at nursery school as rewards?).
 I tested with eye-tracking and EEG in Cape Town as a postdoc.
 
 I had the impression that parents saw research as a sort of medical
-thing, like "better with than without". So they expect the children to
-listen to me (!) and sit still. They would even try to be useful so that
-I could do what I had to do, and give me hints on how to handle their
-child at best (for example, they would warn me if they were hungry, or
-sleepy, or afraid of syringes).
+thing, like "better with than without". So they expected their children
+to listen to me (!) and sit still. They would even try to be useful so
+that I could do what I had to do, and give me hints on how to handle
+their child at best (for example, they would warn me if they were
+hungry, or sleepy, or afraid of syringes).
 
 Children would generally be still until the parent was in the room, but
 would then be easily distracted and uninterested when they left. A way
