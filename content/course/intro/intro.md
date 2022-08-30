@@ -8,7 +8,7 @@ linktitle: Premise
 summary: The importance of being proactive
 
 # Date page published
-date: 2022-05-09
+date: 2022-05-07
 
 # Book page type (do not modify).
 type: book

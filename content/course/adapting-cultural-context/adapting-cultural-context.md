@@ -2,7 +2,7 @@
 title: Adapting Testing to the Cultural Context
 linktitle: Adapting to Cultural Context
 summary: Examples of adjustments in four countries
-date: 2022-05-09
+date: 2022-05-08
 type: book
 weight: 3
 editor_options: 
