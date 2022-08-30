@@ -24,8 +24,8 @@ errors, and contributes to creating a tense environment that will
 negatively affect the experience of parent and child.
 
 Therefore, **you need to be honest regarding your feelings** before and
-during the testing session and work on them, starting from these three
-pillars:
+during the testing session, and work on any negative feeling starting
+from these three pillars:
 
 1.  [There is no way you can harm the child](#nobody-hurts)
 
@@ -42,22 +42,26 @@ We are nervous around small children because they look frail and
 defenseless, and we are afraid of hurting them. However, there is no way
 that you or the EEG can hurt the child: caps are stretchy and made of
 soft material that has been designed especially for children. For
-example, the ENOBIO cap that I often use is made of the same fabric of
-swim suits and does not pull the skin.
+example, the [ENOBIO
+cap](https://www.neuroelectrics.com/solution/spareparts-consumables/cap/)
+that I often use is made of the same fabric of swim suits and does not
+pull the skin.
 
 **Gel:** Many systems use water as conductive, but even if they use gel,
-the gel is water-soluble, and cannot react with the skin. If you need a
-syringe to insert the gel in the electrodes, use a blunt plastic tip
-that is absolutely inoffensive.
+the gel is water-soluble, and is hypoallergenic. If you need a syringe
+to insert the gel in the electrodes, use a blunt plastic tip that is
+absolutely inoffensive.
 
 **Novelty:** You may have to apply other pieces of equipment on the
-child, for example, a earclip. If the child protests against the
-earclip, it is not because of any significant pressure that it applies,
-but because of the novel contact sensation on the skin. For the vast
-majority of children, it might be annoying, but not painful. If you
-distinguish between the majority of children with a normal and expected
-reaction to novelty, and the minority with sensory sensitivity, you are
-going to be able to offer specialty alternatives to the second group.
+child, for example, a
+[earclip](https://www.neuroelectrics.com/solution/spareparts-consumables/earclip).
+If the child protests against the earclip, it is not because of any
+significant pressure that it applies, but because of the novel contact
+sensation on the skin. For the vast majority of children, it might be
+annoying, but not painful. If you distinguish between the majority of
+children with a normal and expected reaction to novelty, and the
+minority with real sensory sensitivity, you are going to be able to
+offer specialty alternatives to the second group.
 
 **Research EEG caps are very small and compact**: if you have never
 worked with EEG before, this might sound very strange to you - certainly
@@ -68,16 +72,17 @@ freedom of movement. In some cases, the patient is even tight to a
 chin-rest.
 
 Also, clinical EEGs require scrubbing the skin (that can bleed) and
-gluing the electrodes. Sessions for the diagnosis of epilepsy can last
-3-6 hours, are extremely tedious and sometimes require that the patient
-sleeps with the cap on. Research EEG caps are lean and simple in
-comparison. If you feel anxious about using a research EEG, try to
-visualise these other cumbersome systems - and feel the relief of having
-to use a research system instead!
+gluing the electrodes. This is generally not needed for research.
+Instead, sessions for the diagnosis of epilepsy can last 3-6 hours, are
+extremely tedious and sometimes require that the patient sleeps with the
+cap on. Clearly, research EEG caps are lean and simple in comparison. If
+you feel anxious about using a research EEG, try to visualise these
+other cumbersome systems - and feel the relief of having to use a
+research system instead!
 
 **Lastly, the EEG cap does not conduct electricity to the participant**:
 it only records passively the very tiny electric current coming from the
-participant's brain.
+participant's brain to the electrodes.
 
 ### No EEG no cry
 
@@ -85,19 +90,19 @@ participant's brain.
 initiative, some others may be shy and cautious. Culture plays a
 significant role in individual differences: in some parts of the world,
 children are not used to receiving explanations, and may feel confused
-if you are too talkative, in some other parts, they are used to receive
-structuring from the adults, and may feel upset if you do not engage
-with them directly. You are the best judge of what is the local custom
-with children, so try out different strategies that are compatible with
-what you experience at home and at work.
+if you are too talkative, in some other regions, they are used to
+receive structuring from the adults, and may feel upset if you do not
+engage with them directly. If you are a local, you are the best judge of
+what is the local custom with children, so try out different strategies
+that are compatible with what you experience at home and at work.
 
 **Some (or many) children will cry or whine when you cap them.** Make
-peace with this realisation. When a child cries because of something
-that we did, we feel awful: are we monsters? Shall we stop? Is it all
-wrong and unnatural? But a child's cry has evolved thousands of years
-exactly to trigger this kind of feeling - it is instinctive and it does
-not mean that what you are doing is harmful. It is simply novel.
-*Turning the tides and calming the child all depends if you let that cry
+peace with it. When a child cries because of something that we did, we
+feel awful: are we monsters? Shall we stop? Is it all wrong and
+unnatural? But a child's cry has evolved thousands of years exactly to
+trigger this kind of feeling - it is instinctive and it does not mean
+that what you are doing is harmful. It is simply novel. *Turning the
+tides and calming the child all depends if you do not let that cry
 arouse your negative feelings.*
 
 Just like you ignore turbulence on a plane, behave calmly to feel calm:
@@ -135,10 +140,15 @@ There are two ways (that I know) to make the child forget the cap:
     > You will have to continuously interact with the child from start
     > to end and make them have the ***best*** time of their life. This
     > is difficult if the child was crying at the start, but not
-    > impossible: you will need different toys, bubbles, stickers,
-    > snacks, and a very soothing and likable attitude. When you obtain
-    > the smallest smile from them, exaggerate and celebrate that little
-    > smile to escalate it into a laugh.
+    > impossible: keep close different toys, bubbles, stickers, snacks,
+    > and try them out one by one. If the participant engages with one
+    > toy, stick with it; if they do not like it, forget it. Try not to
+    > overwhelm them by pushing toys onto them, or holding them to
+    > close, and - very importantly - do not change the focus of
+    > attention or the item your are holding too quickly. Maintain a
+    > very soothing and likable attitude. When you obtain the smallest
+    > smile from them, exaggerate and celebrate that little smile to
+    > escalate it into a laugh.
 
 2.  **Make them so comfy and cozy and bored that they almost fall
     asleep**
