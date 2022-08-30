@@ -4,7 +4,7 @@ linktitle: Deciding Testing Roles
 summary: Playing the part
 date: 2022-08-30
 type: book
-weight: 2
+weight: 4
 editor_options: 
   markdown: 
     wrap: 72
