@@ -82,5 +82,3 @@ understand and apply.
 
 Testing in more than 2 people might be disruptive for a child, but a
 third person could be present as sole observer in the background.
-
-  

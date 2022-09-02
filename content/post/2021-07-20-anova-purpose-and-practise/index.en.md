@@ -131,9 +131,9 @@ m.t.means
 >
 > *`treatment treatment a b c 78.80 83.11 73.24`*
 >
-> *`Standard errors for differences of means treatment`*`5.192 replic. 10`
+> *`Standard errors for differences of means treatment`* `5.192 replic. 10`
 
-So, the average response with treatment "a" is 78.80, with "b" it is 83.11, with "c" it is 73.24.
+So, the average response with treatment "a" is 78.80, with "b", it is 83.11, with "c", it is 73.24.
 
 ```{r}
 m.t.eff <- model.tables(aov, "effects", se=TRUE) #coefficients
@@ -247,7 +247,7 @@ knitr::kable(tidy.summ)
 | treatment:test |   2 |   1.719247 |   0.8596233 |   1.9682024 | 0.1460980 |
 | Residuals      |  84 |  36.687467 |   0.4367556 |          NA |        NA |
 
-According to the ANOVA result, there is a significant effect of treatment, with F(2,84) = 657.63, p-value \< 0.001, and a non-significant effect of test, with F(1,84) = 0.39, p-value = 0.54. But, the interaction between treatment and test is non-significant , meaning that the test that was used made a difference when it comes to measuring the dependent variable.
+According to the ANOVA result, there is a significant effect of treatment, with F(2,84) = 657.63, p-value \< 0.001, and a non-significant effect of test, with F(1,84) = 0.39, p-value = 0.54. Also, the interaction between treatment and test is non-significant, meaning that the test that was used did not make a difference when it comes to measuring the dependent variable (if this was a real-world scenario, that would be reassuring!).
 
 To better understand what interaction means, it is useful to visualize the means in a plot:
 
@@ -285,15 +285,15 @@ The effect size of treatment accounts for 99.7% of the variance of the DV. The e
 
 One of the assumptions of ANOVA is that the groups of which we are examining the means are independent. Independence is the contrary of correlation, when observations influence each other. Correlation may be relevant in some cases, for example when you measure the same response on the same group of individuals, as in within-subjects designs. Broadly speaking, the errors will be smaller because measurements come from the same people, and this could generate significant misalignment of your result.
 
-Look at our residual variance in the previous ANOVA: it's approximately 37, but it could be bigger if we didn't account for the correlation!
+Look at our residual variance in the previous ANOVA: it's approximately 37, but, if the experiment was a within-subject design, we might have mis-estimated by not accounting for the correlation between the repeated measures!
 
-The approach of ANOVA to this problem is to separate the calculations on the data in different layers - or "strata". In the background, the function ANOVA runs a separate linear regression for each of the strata.
+The approach of ANOVA to this problem is to separate the calculations on the data in different layers - or "strata" - gathering measurements that are being repeated. In the background, the function ANOVA runs a separate linear regression for each of the strata.
 
-In the formula, we need to specify the strata, for example, 1 for each subject (since the measurement is repeated a number of times for each subjects).
+In the formula, we need to specify the strata, for example, 1 stratum (singular of strata, it's Latin!) for each subject (since the measurement is repeated a number of times for each subject).
 
-This process reminds of a mixed model, but it is *NOT a mixed model*. A mixed model does not run a separate linear regression for each strata, but rather allow a different estimate of each effect within a pre-defined grouping.
+This process reminds of a mixed model, but it is *NOT a mixed model*. A mixed model does not run a separate linear regression for each stratum, but rather allows a different estimate of each effect within a pre-defined grouping.
 
-In this example, each participant received treatment A or B, but the response was measured with both tests y or z for each subject (within-subject design).
+In the following example, each participant received treatment A or B (between factor), but the response was measured with both tests y or z for each subject (within-subject factor).
 
 Let's generate the data:
 
@@ -336,7 +336,7 @@ knitr::kable(summ.tidy.rr)
 
 In the output, we have 3 estimates, just as before, 2 for the effects of treatment and test, plus their reciprocal interaction.
 
-The "stratum" (i.e., singular of "strata" - which is by the way a latin word!) indicates the level at which each of these estimates are re-calculared: at the level of each subject, and at the level of each within-subject factors (test and its interaction), that are repeated by subject:
+The stratum here indicates the level at which each of these estimates are calculated more than once: at the level of each subject, and at the level of each within-subject factor (test and its interaction):
 
 ```{r}
 knitr::kable(summ.tidy.rr.eff)
@@ -377,7 +377,7 @@ cat("eta-squared (test):", round(eta.test, 2))
 
 > *`eta-squared (test): 0.01`*
 
-## Alternatives to RM Anova
+## Alternatives to Repeated-Measures Anova
 
 In summary, when you have more than one measurement by subject, and you have a condition of non-independence, the approach of repeated-measures anova is *separation*, i.e., performing strata-level regressions for each unit of repetition.
 
