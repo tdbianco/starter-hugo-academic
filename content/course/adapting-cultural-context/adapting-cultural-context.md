@@ -19,7 +19,8 @@ works everywhere.** Specific examples can inspire people that are
 testing in the countries I refer to below, or in similar conditions,
 however, three on four of the settings where I have tested were
 high-income, and all of them were urban and centered around a University
-- not a very good representation of the real big world.
+
+-   not a very good representation of the real big world.
 
 **So, what I really mean with the below examples is to show the extent
 of adaptation and flexibility that is needed to test successfully in
