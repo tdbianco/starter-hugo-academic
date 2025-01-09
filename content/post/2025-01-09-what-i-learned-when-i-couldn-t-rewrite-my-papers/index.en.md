@@ -23,7 +23,7 @@ projects: []
 
 Three years ago, I wrote a blog post '[I wish I could rewrite my papers](https://tdbianco.netlify.app/post/i-wish-i-could-rewrite-my-papers/)'. At the time, I was reflecting on how the dehumanizing language used in scientific publications had been ingrained in me through my medical and research training. I had walked away from the medical profession because I couldn't bear the loss of seeing patients as humans. The pressure to conform to this standard---and my fear of lacking the strength to resist it---scared me away from a career I had spent most of my twenties building toward.
 
-When I entered the research world as my plan B, I quickly embraced its atmosphere of pluralism, internationalism, and intellectual exchange. The identity of the traveling, progressive researcher became my most cherished one. What I didn't realize then was that while medicine had placed me on the frontlines of witnessing relationships devoid of empathy, research had kindly placed a screen between me and others.
+When I entered the research world as my plan B, I quickly embraced its atmosphere of pluralism, internationalism, and intellectual exchange. The identity of the traveling, progressive researcher became my most cherished one. What I didn't realize then was that while medicine had placed me on the front lines of witnessing relationships devoid of empathy, research had kindly placed a screen between me and others.
 
 As a researcher, I saw only a few participants at a time. The ritual of informing and consenting gave me a reassuring sense of goodness, as though I were giving them agency. By the time I wrote up the results, those encounters were long gone. I described abstract categories, group averages, and p-values. During my PhD and early postdoc years, I thought I had left behind the dehumanizing aspects of medicine for a field that neutrally contributed to the greater good. I didn't see how this screen, while helping me feel I had escaped dehumanization, was also pushing me further from a realization I had made years earlier, during my final year of medical school.
 
@@ -33,7 +33,7 @@ It was 2014. Truth be told, one of the reasons I had enrolled in medical school 
 
 Between the ages of six and ten, growing up in the '90s with no parental control over what I watched on TV, I developed an obsession with movies about heroines locked in asylums and mental institutions. To my fascination and horror, the doctors' reasons for confining these women often reflected my inner world---my fantasies, my ways of communicating, my interactions. I learned to treat those aspects of myself with secrecy, while also developing an early fascination with psychology. Years later, I decided I wanted to protect people like me from the dire consequences of simply being themselves and study medicine to become a psychiatrist.
 
-Along the way, I lacked the courage to see it through, but I had, when I had almost lost hope, found my people. I enrolled in a PhD program at an autism clinical centre, hopeful that it would fulfil my childhood dream. Looking back, this was a genuine intuition---one that I believed would bring me closer to my truth. Yet, in hindsight, it also feels like an extreme act of masking.
+Along the way, I lacked the courage to see it through, but I had, when I had almost lost hope, found my people. I enrolled in a PhD program at an autism clinical centre, hopeful that it would fulfill my childhood dream. Looking back, this was a genuine intuition---one that I believed would bring me closer to my truth. Yet, in hindsight, it also feels like an extreme act of masking.
 
 Fast forward to my early postdoc years, and I had almost entirely fused my personal and professional identities. As a medical trainee and researcher, I had only ever met autistic people within the formalized dynamics of doctor-patient or researcher-participant relationships. That changed in 2020, when I attended a talk by Dr. Mary Doherty, an autistic advocate, who shared her experience of attending a major autism conference. As she described feeling treated as a specimen rather than a person, I started crying.
 
@@ -49,6 +49,4 @@ Second, I've noticed that people who were previously intimidated by me as a rese
 
 I will never be able to rewrite my papers, and I am grateful I was able to write them in the first place. Today, I remember the child who thought she'd end up locked in an asylum if she revealed her true self, and I promise I will never stop writing---or forget that every screen we place between ourselves and others is a mirror reflecting our own reckoning.
 
-<div style="text-align: center;">
-    <img src="images/Teresa Del Bianco 1 copy.jpg" width="50%"/>
-</div>
+<img src="images/Teresa Del Bianco 1 copy-01.jpg" width="40%"/>
